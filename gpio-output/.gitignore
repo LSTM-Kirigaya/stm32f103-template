@@ -1,0 +1,83 @@
+# 忽略编译生成的文件和目录  
+*.o  
+*.d  
+*.su  
+*.bin  
+*.hex  
+*.elf  
+*.axf  
+*.map  
+*.lst  
+*.dmp  
+*.bak  
+*.exe  
+*.dll  
+*.so  
+*.a  
+*.lib  
+*.srec  
+*.user  
+Debug/  
+Release/  
+Output/  
+build/
+  
+# 忽略IDE配置文件  
+# 对于STM32CubeIDE  
+.cproject  
+.project  
+.settings/  
+  
+# 对于Keil MDK  
+*.uvguix  
+*.uvopt
+*.dep  
+*.lnk  
+*.sct  
+*.plg  
+*.bak  
+Listings/  
+Objects/  
+Output/  
+  
+# 对于IAR Embedded Workbench  
+*.ewd  
+*.ewp  
+*.ewt  
+*.eww  
+*.ewd.lock  
+*.ewp.lock  
+*.ewt.lock  
+*.eww.lock  
+Debug/  
+Release/  
+  
+# 忽略其他可能生成的临时文件  
+*.tmp  
+*~  
+*.swp  
+.DS_Store  
+Thumbs.db  
+  
+# 忽略IDE的虚拟文件夹  
+.vscode/  
+.idea/  
+.c9/  
+  
+# 如果你使用了git子模块  
+#*.git/  
+
+# 忽略本地编译环境配置  
+compile_commands.json  
+  
+# 忽略LCOV代码覆盖率结果  
+lcov/  
+  
+# 忽略J-Link日志  
+*.jlink  
+  
+# 忽略其他IDE或工具可能生成的文件或目录  
+*.cbproj  
+*.cbp  
+*.cbproj.user  
+*.cbp.user
